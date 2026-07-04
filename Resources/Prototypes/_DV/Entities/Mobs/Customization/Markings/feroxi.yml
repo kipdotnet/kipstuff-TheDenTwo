@@ -19,7 +19,9 @@
 
 - type: marking
   id: FeroxiTailAndDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -103,16 +105,29 @@
     state: feroxi-snout-nurse
 
 # Tail Markings
+
+- type: marking #added here since rebase doesnt have BaseTailMarking. you can kill this if that system is used again and swap the parenting over
+  abstract: true
+  id: BaseFeroxiTailMarking
+  #speciesRestriction: [Vox, Resomi, Shadowkin, Plasmaman, Thaven, Diona, Moth, Chitinid, Arachnid, Arachne]
+  #invertSpeciesRestriction: true
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
+
 - type: marking
   id: FeroxiTail
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
 
 - type: marking
   id: FeroxiStripedTail
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -121,7 +136,9 @@
 
 - type: marking
   id: FeroxiStripedTailAndDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -134,7 +151,9 @@
 
 - type: marking
   id: FeroxiTipTail
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -147,7 +166,9 @@
 
 - type: marking
   id: FeroxiTipTailAndDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -164,7 +185,9 @@
 
 - type: marking
   id: FeroxiTailBlitz
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -183,7 +206,9 @@
 
 - type: marking
   id: FeroxiTailBlitzNoDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -198,7 +223,9 @@
 
 - type: marking
   id: FeroxiTwoToneTail
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -207,7 +234,9 @@
 
 - type: marking
   id: FeroxiTwoToneTailAndDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -218,7 +247,9 @@
 
 - type: marking
   id: FeroxiStripeTwoToneTail
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -229,7 +260,9 @@
 
 - type: marking
   id: FeroxiStripeTwoToneTailAndDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -244,7 +277,9 @@
 
 - type: marking
   id: FeroxiTipTwoToneTail
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
@@ -259,7 +294,9 @@
 
 - type: marking
   id: FeroxiTipTwoToneTailAndDorsal
-  parent: BaseTailMarking
+  #parent: BaseTailMarking
+  groupWhitelist: [ ] #added with rebase, should probably be Feroxi, Human
+  bodyPart: Tail #added with rebase, previously inherited from BaseTailMarking
   sprites:
   - sprite: _DV/Mobs/Customization/Feroxi/tail_markings.rsi
     state: feroxi-tail
